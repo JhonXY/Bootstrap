@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/myindex.css"
+</head>
+<body>
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+        </div>
+        <div class="navbar-collapse collapse" >
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">index</a></li>
+                <li><a href="jumbotron.html">about</a></li>
+                <li><a href="#">front</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right ">
+            <!--下拉菜单因为存在导航条中，所以不用button而用li，这样会样式与导航条其他样式一样-->
+              <li>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                      <span class="caret"></span> <!--这里添加的下拉菜单的那个下箭头-->
+                  </a>
+                  <ul class="dropdown-menu ">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+              </li>
+              <form action="" class="nav navbar-form navbar-right">
+                  <div class="input-group">
+                      <input type="text" class="form-control">
+                      <div class="input-group-btn">
+                          <button class="btn btn-default">提交</button>
+                      </div>
+                  </div>
+              </form>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<div class="container" style="margin:50px;">
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p>
+    <p>6</p>
+    <p>7</p>
+    <p>8</p>
+    <p>9</p>
+    <p>10</p>
+    <p>11</p>
+    <p>12</p>
+    <p>13</p>
+    <p>14</p>
+    <p>15</p>
+    <p>161</p>
+    <p>162</p>
+    <p>163</p>
+    <p>164</p>
+    <p>165</p>
+    <p>166</p>
+    <p>167</p>
+    <p>168</p>
+    <p>169</p>
+    <p>1610</p>
+    <p>1611</p>
+    <p>1612</p>
+    <p>1613</p>
+    <p>1614</p>
+    <p>1615</p>
+    <p>1616</p>
+    <p>1617</p>
+    <p>1618</p>
+    <p>1619</p>
+    <p>20</p>
+</div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    $(".glyphicon-search").click(function(){$('.tan').stop().removeClass('hidden').animate({width: "200px"})}).mouseover(function(){$('.tan').addClass('hidden')});
+    </script>
+</body>
+</html>
